@@ -37,7 +37,7 @@ function Navbar() {
           type="submit"
           style={{ color: "white" }}
         >
-          For You
+          Products
         </Button>
         &emsp;
         <Button
