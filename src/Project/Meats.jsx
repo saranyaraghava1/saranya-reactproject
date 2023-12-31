@@ -20,7 +20,7 @@ const Meats = () => {
       &emsp;&emsp;
       <Button
         className="find-freelance-button"
-        onClick={() => handleButtonClick("fruits&vegetables")}
+        onClick={() => handleButtonClick("meats")}
         variant="contained"
         style={{
           ...buttonStyle,
@@ -35,7 +35,7 @@ const Meats = () => {
       &emsp;&emsp;
       <Button
         className="find-freelance-button"
-        onClick={() => handleButtonClick("fruits&vegetables")}
+        onClick={() => handleButtonClick("meats")}
         variant="contained"
         style={{
           ...buttonStyle,
@@ -50,7 +50,7 @@ const Meats = () => {
       &emsp;&emsp;
       <Button
         className="find-freelance-button"
-        onClick={() => handleButtonClick("fruits&vegetables")}
+        onClick={() => handleButtonClick("meats")}
         variant="contained"
         style={{
           ...buttonStyle,
@@ -65,7 +65,7 @@ const Meats = () => {
       &emsp;&emsp;&emsp;&emsp;
       <Button
         className="find-freelance-button"
-        onClick={() => handleButtonClick("fruits&vegetables")}
+        onClick={() => handleButtonClick("meats")}
         variant="contained"
         style={{
           ...buttonStyle,
@@ -80,7 +80,7 @@ const Meats = () => {
       &emsp;&emsp;
       <Button
         className="find-freelance-button"
-        onClick={() => handleButtonClick("fruits&vegetables")}
+        onClick={() => handleButtonClick("meats")}
         variant="contained"
         style={{
           ...buttonStyle,

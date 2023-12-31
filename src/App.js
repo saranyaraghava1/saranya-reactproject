@@ -9,6 +9,10 @@ import Footer from "./Project/Footer";
 import Fruits from"./Project/Fruits";
 import Meats from "./Project/Meats";
 import Chocolates from "./Project/Chocolates";
+import Dairy from "./Project/Dairy";
+import Beverages from "./Project/Beverages";
+import Snacking from "./Project/Snacking";
+import Harpic from "./Project/Harpic";
 import { AuthProvider } from "./Project/AuthContext";
 const App = () => {
   return (
@@ -23,6 +27,10 @@ const App = () => {
           <Route path="products/fruits&vegetables" element={<Fruits />} />
           <Route path="products/meats" element={<Meats />} />
           <Route path="products/chocolates" element={<Chocolates />} />
+          <Route path="products/dairy" element={<Dairy />} />
+          <Route path="products/beverages" element={<Beverages />} />
+          <Route path="products/snacking" element={<Snacking />} />
+          <Route path="products/harpic" element={<Harpic />} />
            </Routes>
            <Footer />
       </div>
