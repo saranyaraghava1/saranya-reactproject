@@ -16,7 +16,7 @@ const ForYou = () => {
   };
 
   const handleButtonClick = (category) => {
-    navigate(`/findfreelancer/${category}`);
+    navigate(`/products/${category}`);
   };
 
   return (
@@ -24,7 +24,7 @@ const ForYou = () => {
       &emsp;&emsp;
       <Button
         className="find-freelance-button"
-        onClick={() => handleButtonClick("photography")}
+        onClick={() => handleButtonClick("fruits&vegetables")}
         variant="contained"
         style={{
           ...buttonStyle,
@@ -37,7 +37,7 @@ const ForYou = () => {
       &emsp;&emsp;
       <Button
         className="find-freelance-button"
-        onClick={() => handleButtonClick("catering")}
+        onClick={() => handleButtonClick("meats")}
         variant="contained"
         style={{
           ...buttonStyle,
@@ -53,7 +53,7 @@ const ForYou = () => {
       &emsp;&emsp;
       <Button
         className="find-freelance-button"
-        onClick={() => handleButtonClick("makeup")}
+        onClick={() => handleButtonClick("chocolates")}
         variant="contained"
         style={{
           ...buttonStyle,
@@ -66,7 +66,7 @@ const ForYou = () => {
       &emsp;&emsp;
       <Button
         className="find-freelance-button"
-        onClick={() => handleButtonClick("artwork")}
+        onClick={() => handleButtonClick("bakery&dairy")}
         variant="contained"
         style={{
           ...buttonStyle,
@@ -81,7 +81,7 @@ const ForYou = () => {
       &emsp;&emsp;
       <Button
         className="find-freelance-button"
-        onClick={() => handleButtonClick("webdesign")}
+        onClick={() => handleButtonClick("breakfast&jam")}
         variant="contained"
         style={{
           ...buttonStyle,
@@ -94,7 +94,7 @@ const ForYou = () => {
       &emsp;&emsp;
       <Button
         className="find-freelance-button"
-        onClick={() => handleButtonClick("cakebaking")}
+        onClick={() => handleButtonClick("gourmet platters")}
         variant="contained"
         style={{
           ...buttonStyle,
@@ -109,7 +109,7 @@ const ForYou = () => {
       &emsp;&emsp;{" "}
       <Button
         className="find-freelance-button"
-        onClick={() => handleButtonClick("webtechnology")}
+        onClick={() => handleButtonClick("beverages")}
         variant="contained"
         style={{
           ...buttonStyle,
@@ -122,7 +122,7 @@ const ForYou = () => {
       &emsp;&emsp;
       <Button
         className="find-freelance-button"
-        onClick={() => handleButtonClick("logodesign")}
+        onClick={() => handleButtonClick("snacking")}
         variant="contained"
         style={{
           ...buttonStyle,
@@ -137,7 +137,7 @@ const ForYou = () => {
       &emsp;&emsp;
       <Button
         className="find-freelance-button"
-        onClick={() => handleButtonClick("contentwriter")}
+        onClick={() => handleButtonClick("cleaning&household")}
         variant="contained"
         style={{
           ...buttonStyle,
@@ -151,7 +151,7 @@ const ForYou = () => {
       <Button
         className="find-freelance-button"
         b
-        onClick={() => handleButtonClick("digitalmarketing")}
+        onClick={() => handleButtonClick("home and kitchen ")}
         variant="contained"
         style={{
           ...buttonStyle,

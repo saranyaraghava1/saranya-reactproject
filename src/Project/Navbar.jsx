@@ -19,7 +19,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: "darkblue" }}>
+    <AppBar position="static" sx={{ backgroundColor: "olive" }}>
       <Toolbar sx={{ justifyContent: "flex-end" }}>
         <h2 style={{ fontStyle: "revert-layer" }}>Nature's Basket</h2>&emsp;
         <Button
@@ -68,7 +68,7 @@ function Navbar() {
             <Button
               onClick={() => navigate("LoginPage")}
               variant="contained"
-              style={{ backgroundColor: "#6B3FA0" }}
+              style={{ backgroundColor: "teal" }}
               type="submit"
             >
               Login
@@ -78,7 +78,7 @@ function Navbar() {
               onClick={() => navigate("SignUp")}
               variant="contained"
               type="submit"
-              style={{ backgroundColor: "#6B3FA0" }}
+              style={{ backgroundColor: "teal" }}
             >
               SignUp
             </Button>
